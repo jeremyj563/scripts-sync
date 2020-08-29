@@ -1,0 +1,2 @@
+# start sync procedure every sunday at 2:00am
+0 2 * * SUN ~/scripts/invoke_sync.sh > /dev/null 2>&1
